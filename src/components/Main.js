@@ -26,11 +26,27 @@ export default function Main() {
           </span>
         </div>
         <div className="imgs">
-          <img src="" alt="google_logo" />
-          <img src="" alt="barclays_logo" />
-          <img src="" alt="ey_logo" />
-          <img src="" alt="amazon_logo" />
-          <img src="" alt="accenture_logo" />
+          <img
+            src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+            alt="google_logo"
+          />
+          <img
+            src="https://companieslogo.com/img/orig/BCS-745d30bf.png?t=1648915513"
+            alt="barclays_logo"
+          />
+          <img
+            src="https://logodownload.org/wp-content/uploads/2019/10/ernst-young-logo-0.png"
+            alt="ey_logo"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKl0V3H7C2uPFtz78H_swKyxBaa_FTvwqIpw&usqp=CAU"
+            alt="amazon_logo"
+            className="big"
+          />
+          <img
+            src="https://png2.cleanpng.com/sh/6575d8e8cb746504d80732b7b94367c5/L0KzQYm3VMI4N5pAiZH0aYP2gLBuTfFka5ZzjOd7ZT32ib7pjBwudJDsh592YX7kd7b0hf51NZR0huVAbITsfri0iPlocF5uhuZubHzsd7b1gBUuPZJqS6YBYna7c4LqhMYvPGc1TaoCMEC0RYO7WMQ1OmM4Tak8OT7zfri=/kisspng-accenture-symbol-logo-management-consulting-high-intelligence-5ae346bf8c1cd6.4605870015248442235739.png"
+            alt="accenture_logo"
+          />
         </div>
       </Left>
       <Right>
@@ -127,6 +143,14 @@ const Left = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    img {
+      width: 10%;
+    }
+
+    img.big {
+      width: 15%;
+    }
   }
 
   @media screen and (max-width: 680px) {
